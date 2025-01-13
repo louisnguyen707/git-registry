@@ -15,6 +15,7 @@ This helpers is a utility collection that focus on helping javascript developer 
     **Scoped Packages** are simply put as the packages grouped under a namespace. You might have seen @angular/core or @react/something. So, these are the scoped packages.
     ```
     @louisnguyen707:registry=https://npm.pkg.github.com
+    //npm.pkg.github.com/:_authToken=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
     ```
 
 2. Install library
