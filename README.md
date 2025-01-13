@@ -1,1 +1,2 @@
-# nam-test-git-registry
+# install registry
+ npm install @louisnguyen707/git-registry
