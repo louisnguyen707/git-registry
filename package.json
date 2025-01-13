@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "login": "npm login --registry=https://npm.pkg.github.com"
+    "login": "npm login --registry=https://npm.pkg.github.com",
+    "publish": "npm publish --registry=https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC",
