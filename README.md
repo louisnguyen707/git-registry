@@ -19,10 +19,14 @@ This helpers is a utility collection that focus on helping javascript developer 
     ```
 
 2. Install library
+  - Define script
 
     ```
-    npm install @louisnguyen707/git-registry
+     "hepler-config": "rm -rf node_modules/@louisnguyen && npm install git+https://github.com/louisnguyen707/git-registry.git --no-save && cd node_modules && mv @louisnguyen707/git-registry @louisnguyen"
     ```
+and enter terminal run cli
+
+ `npm run hepler-config`
 
 ## Benefits
 
