@@ -1,20 +1,17 @@
 {
   "name": "@louisnguyen707/git-registry",
-  "version": "1.0.2",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "login": "npm login --registry=https://npm.pkg.github.com",
     "logout": "npm logout --registry=https://npm.pkg.github.com",
-    "publish": "npm publish --registry=https://npm.pkg.github.com"
+    "publish": "npm version patch && npm publish"
   },
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/louisnguyen707/git-registry.git"
-  },
+  "repository": "https://github.com/louisnguyen707/git-registry.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
